@@ -10,9 +10,22 @@
 		47DAA77B2ED1DF9600F5718E /* BulletPaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletPaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		47C289FC2ED2D5700026BB9E /* Exceptions for "BulletPaste" folder in "BulletPaste" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 47DAA77A2ED1DF9600F5718E /* BulletPaste */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		47DAA77D2ED1DF9600F5718E /* BulletPaste */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				47C289FC2ED2D5700026BB9E /* Exceptions for "BulletPaste" folder in "BulletPaste" target */,
+			);
 			path = BulletPaste;
 			sourceTree = "<group>";
 		};
@@ -254,8 +267,10 @@
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulletPaste/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bullet Paste";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -285,8 +300,10 @@
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BulletPaste/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bullet Paste";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
